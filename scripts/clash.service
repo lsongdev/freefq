@@ -1,0 +1,17 @@
+[Unit]
+Description=clash
+After=network.target
+
+[Service]
+Type=simple
+; User=clash
+; Group=clash
+LimitNOFILE=65535
+ExecStart=/usr/local/bin/clash -d /etc/clash
+ExecStartPost=/etc/clash/scripts/up.sh
+ExecStopPost=/etc/clash/scripts/down.sh
+StandardOutput=file:/var/log/clash.log
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target

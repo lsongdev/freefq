@@ -1,0 +1,325 @@
+# clash config
+
+bind-address: "*"
+allow-lan: true
+
+mixed-port: 1080
+
+# logger
+# log-level: debug
+log-level: warning
+
+ipv6: true
+
+profile:
+  tracing: true
+  store-fake-ip: true
+  store-selected: true
+
+# dashboard
+secret: "clash@lsong.org"
+external-ui: /www/yacd
+external-controller: 0.0.0.0:7880
+
+authentication:
+  - "username:password"
+
+experimental:
+  sniff-tls-sni: true
+
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+auto-route: true # auto set global route
+auto-detect-interface: true # conflict with interface-name
+# interface-name: br0
+routing-mark: 89999
+# ebpf:
+#   redirect-to-tun:
+#     - eth0
+
+dns:
+  enable: true
+  ipv6: true
+  listen: :1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.twitter.com"
+  fallback:
+    - 8.8.8.8
+    - 208.67.222.222
+    - tls://8.8.4.4:853
+
+# Lookup domains via specific nameservers
+nameserver-policy:
+  "api.cloudflare.com": "114.114.114.114"
+
+# Rule / Global/ Direct (default is Rule)
+mode: Rule
+
+rule-providers:
+  direct:
+    type: http
+    behavior: classical
+    path: rules/direct.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/direct.yaml
+    interval: 86400
+
+  reject:
+    type: http
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/block.yaml
+    behavior: classical
+    path: rules/block.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/apple.yaml
+    path: rules/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/google.yaml
+    path: rules/google.yaml
+    interval: 86400
+
+  microsoft:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/microsoft.yaml
+    path: rules/microsoft.yaml
+    interval: 86400
+
+  openai:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/openai.yaml
+    path: rules/openai.yaml
+    interval: 86400
+
+  netflix:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/netflix.yaml
+    path: rules/netflix.yaml
+    interval: 86400
+
+  twitter:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/twitter.yaml
+    path: rules/twitter.yaml
+    interval: 86400
+
+  youtube:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/youtube.yaml
+    path: rules/youtube.yaml
+    interval: 86400
+
+  github:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/github.yaml
+    path: rules/github.yaml
+    interval: 86400
+
+  reddit:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/reddit.yaml
+    path: rules/reddit.yaml
+    interval: 86400
+
+  discord:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/discord.yaml
+    path: rules/discord.yaml
+    interval: 86400
+
+  stackoverflow:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/stackoverflow.yaml
+    path: rules/stackoverflow.yaml
+    interval: 86400
+
+  facebook:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/facebook.yaml
+    path: rules/facebook.yaml
+    interval: 86400
+
+  wikipedia:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/wikipedia.yaml
+    path: rules/wikipedia.yaml
+    interval: 86400
+
+  tiktok:
+    type: http
+    behavior: classical
+    path: rules/tiktok.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/tiktok.yaml
+    interval: 86400
+
+  yahoo:
+    type: http
+    behavior: classical
+    path: rules/yahoo.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/yahoo.yaml
+    interval: 86400
+
+  telegram:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/telegram.yaml
+    path: rules/telegram.yaml
+    interval: 86400
+
+  porn:
+    type: http
+    behavior: classical
+    path: rules/porn.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/porn.yaml
+    interval: 86400
+
+  clubhouse:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/clubhouse.yaml
+    path: rules/clubhouse.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/proxy.yaml
+    path: rules/proxy.yaml
+    interval: 86400
+
+proxy-providers:
+  freefq:
+    type: http
+    path: proxies/freefq.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/proxies/freefq.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  yebekhe:
+    type: http
+    path: proxies/yebekhe.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/proxies/yebekhe.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+      
+  mahdibland:
+    type: http
+    path: proxies/mahdibland.yaml
+    url: https://rawgit.lsong.org/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  zeabur:
+    type: http
+    path: proxies/zeabur.yaml
+    url: https://subs.zeabur.app/clash
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+  - name: freefq-auto
+    type: url-test
+    use:
+      - freefq
+      - yebekhe
+      - zeabur
+      - mahdibland
+    url: "http://www.gstatic.com/generate_204"
+    interval: 120
+
+  - name: proxy
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 120
+    proxies:
+      - freefq-auto
+
+proxies:
+
+rules:
+  # DNS Query
+  - DST-PORT,53,proxy
+
+  # AD
+  - RULE-SET,reject,REJECT
+
+  # DIRECT
+  - DST-PORT,22,DIRECT
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,microsoft,DIRECT
+
+  # PROXY
+  - RULE-SET,openai,proxy
+  - RULE-SET,yahoo,proxy
+  - RULE-SET,tiktok,proxy
+  - RULE-SET,github,proxy
+  - RULE-SET,twitter,proxy
+  - RULE-SET,reddit,proxy
+  - RULE-SET,discord,proxy
+  - RULE-SET,youtube,proxy
+  - RULE-SET,google,proxy
+  - RULE-SET,facebook,proxy
+  - RULE-SET,wikipedia,proxy
+  - RULE-SET,telegram,proxy
+  - RULE-SET,clubhouse,proxy
+  - RULE-SET,stackoverflow,proxy
+  - RULE-SET,netflix,proxy
+  - RULE-SET,porn,proxy
+  - RULE-SET,proxy,proxy
+
+  # Finally
+  - GEOIP,CN,DIRECT
+  # MATCH,proxy
+  - MATCH,DIRECT

@@ -1,0 +1,23 @@
+# google
+# https://developers.google.com/maps/domains
+payload:
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt4.com
+  - DOMAIN-SUFFIX,gvt5.com

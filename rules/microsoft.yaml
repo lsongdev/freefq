@@ -1,0 +1,31 @@
+payload:
+  - DOMAIN-SUFFIX,microsoft.com
+  # windows
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,appcenter.ms
+  # msn
+  - DOMAIN-SUFFIX,msn.cn
+  - DOMAIN-SUFFIX,msn.com
+  # bing
+  # - DOMAIN-SUFFIX,bing.com
+  # - DOMAIN-SUFFIX,bing.net
+  # office
+  - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office365.com
+  # onedrive
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  # outlook
+  - DOMAIN-SUFFIX,outlook.cn
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,live.cn
+  - DOMAIN-SUFFIX,live.com
+  # xbox
+  - DOMAIN-SUFFIX,xboxservices.com
+  # skype
+  - DOMAIN-SUFFIX,skype.com
+  # edge
+  - DOMAIN-SUFFIX,msedge.net

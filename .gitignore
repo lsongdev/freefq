@@ -1,0 +1,5 @@
+
+*.db
+*.mmdb
+
+node_modules/

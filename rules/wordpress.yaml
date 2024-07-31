@@ -1,0 +1,4 @@
+# wordpress
+payload:
+  - DOMAIN-SUFFIX,wp.com
+  - DOMAIN-SUFFIX,wordpress.com

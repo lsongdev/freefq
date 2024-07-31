@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,googlevideo.com

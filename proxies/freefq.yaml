@@ -1,0 +1,15 @@
+proxies:
+  - type: vless
+    name: vless.lsong.org
+    server: vless.lsong.org
+    port: 443
+    uuid: 45a84d2a-2a7a-4b48-9b07-882f0023f600
+    network: ws
+    tls: true
+    udp: false
+    sni: vless.lsong.org
+    client-fingerprint: chrome
+    ws-opts:
+    path: "/?ed=2048"
+    headers:
+      host: vless.lsong.org

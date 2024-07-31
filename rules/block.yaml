@@ -1,0 +1,33 @@
+payload:
+    - DOMAIN-KEYWORD,admarvel
+    - DOMAIN-KEYWORD,admaster
+    - DOMAIN-KEYWORD,adsage
+    - DOMAIN-KEYWORD,adsmogo
+    - DOMAIN-KEYWORD,adsrvmedia
+    - DOMAIN-KEYWORD,adwords
+    - DOMAIN-KEYWORD,adservice
+    - DOMAIN-KEYWORD,domob
+    - DOMAIN-KEYWORD,duomeng
+    - DOMAIN-KEYWORD,dwtrack
+    - DOMAIN-KEYWORD,guanggao
+    - DOMAIN-KEYWORD,lianmeng
+    - DOMAIN-KEYWORD,omgmta
+    - DOMAIN-KEYWORD,openx
+    - DOMAIN-KEYWORD,partnerad
+    - DOMAIN-KEYWORD,pingfore
+    - DOMAIN-KEYWORD,supersonicads
+    - DOMAIN-KEYWORD,tracking
+    - DOMAIN-KEYWORD,uedas
+    - DOMAIN-KEYWORD,umeng
+    - DOMAIN-KEYWORD,usage
+    - DOMAIN-KEYWORD,wlmonitor
+    # wap.zjtoolbar.10086.cn
+    - DOMAIN-KEYWORD,zjtoolbar
+    - DOMAIN-SUFFIX,doubleclick.net
+    - DOMAIN-SUFFIX,appsflyer.com
+    # douyin
+    # - DOMAIN-SUFFIX,amemv.com
+    # - DOMAIN-SUFFIX,douyinvod.com
+    # - DOMAIN-SUFFIX,douyinstatic.com
+    - DOMAIN-SUFFIX,mercuryclouds.com.cn
+    

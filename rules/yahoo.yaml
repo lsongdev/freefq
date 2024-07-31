@@ -1,0 +1,4 @@
+# yahoo
+payload:
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,yimg.com

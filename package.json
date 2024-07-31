@@ -1,0 +1,20 @@
+{
+  "name": "freefq",
+  "version": "1.0.0",
+  "description": "Update Hourly.",
+  "main": "main.js",
+  "scripts": {
+    "build": "./scripts/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "links": {
+    "mahdibland": "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity",
+    "freefq": "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "yebekhe": "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/trojan"
+  }
+}

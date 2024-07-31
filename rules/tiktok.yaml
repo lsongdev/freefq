@@ -1,0 +1,6 @@
+# tiktok
+payload:
+  - DOMAIN-SUFFIX,tiktok.com,US
+  - DOMAIN-SUFFIX,tiktokv.com,US
+  - DOMAIN-SUFFIX,tiktokcdn.com,US
+  - DOMAIN-SUFFIX,byteoversea.com,US

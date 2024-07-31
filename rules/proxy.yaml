@@ -1,0 +1,50 @@
+payload:
+  - DOMAIN-SUFFIX,shadowsocks.nz
+  - DOMAIN-SUFFIX,shadowsocks.au
+  - DOMAIN-SUFFIX,shadowsocks.com
+  - DOMAIN-SUFFIX,shadowsocks.org
+  - DOMAIN-SUFFIX,shadowsocks-links.com
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  - DOMAIN-SUFFIX,typlog.com
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,rustdesk.com
+  - DOMAIN-SUFFIX,rawgit.com
+  - DOMAIN-SUFFIX,cdn.statically.io
+  - DOMAIN-SUFFIX,feedburner.com
+  # Python
+  - DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,files.pythonhosted.org
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,api.themoviedb.org
+  # Cloudflare Workers
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,medium.com
+  # The NewYork Times
+  - DOMAIN-SUFFIX,nyt.com
+  - DOMAIN-SUFFIX,nytimes.com
+  # BBC
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,bbci.co.uk
+  - DOMAIN-SUFFIX,serverfault.com
+  - DOMAIN-SUFFIX,askubuntu.com
+  - DOMAIN-SUFFIX,vercel.app
+  # mastodon
+  - DOMAIN-SUFFIX,joinmastodon.org
+  - DOMAIN-SUFFIX,mastodon.social
+  # FreeAskInternet
+  - DOMAIN-SUFFIX,soundcloud.com
+  - DOMAIN-SUFFIX,search.brave.com
+  - DOMAIN-SUFFIX,duckduckgo.com
+  - DOMAIN-SUFFIX,api.qwant.com
+  - DOMAIN-SUFFIX,news.ycombinator.com
+  - DOMAIN-SUFFIX,broadcom.com
+  - DOMAIN-SUFFIX,1point3acres.com
+  - DOMAIN-SUFFIX,patreon.com
+
+  
+  

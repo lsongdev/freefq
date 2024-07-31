@@ -1,0 +1,5 @@
+# github
+payload:
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,gist.github.com

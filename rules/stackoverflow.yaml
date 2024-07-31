@@ -1,0 +1,5 @@
+# stackoverflow
+payload:
+  - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,stackexchange.com
+  - DOMAIN-SUFFIX,cdn.sstatic.net
