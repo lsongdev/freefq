@@ -231,7 +231,7 @@ proxy-providers:
   freefq:
     type: http
     path: proxies/freefq.yaml
-    url: https://rawgit.lsong.org/song940/freefq/master/proxies/freefq.yaml
+    url: https://vless.lsong.org/45a84d2a-2a7a-4b48-9b07-882f0023f600
     interval: 3600
     health-check:
       enable: true
@@ -251,9 +251,38 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 120
     proxies:
+      - vless-ws
+      - trojan-ws
       - freefq-auto
 
 proxies:
+  - name: vless-ws
+    type: vless
+    server: vless.lsong.me
+    port: 443
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    udp: true
+    tls: true
+    network: ws
+    servername: vless.lsong.me
+    client-fingerprint: random
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        Host: vless.lsong.me
+
+  - name: trojan-ws
+    type: trojan
+    server: trojan.lsong.org
+    port: 443
+    password: "lsong940"
+    network: ws
+    sni: trojan.lsong.org
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      headers:
+        Host: trojan.lsong.org
 
 rules:
   # DNS Query
