@@ -1,4 +1,4 @@
 
 payload:
-  - DOMAIN-SUFFIX,bing.com,PROXY
-  - DOMAIN-SUFFIX,clarity.ms,PROXY
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,clarity.ms

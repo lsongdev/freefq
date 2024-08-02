@@ -4,5 +4,6 @@ payload:
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,intercom.com
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
