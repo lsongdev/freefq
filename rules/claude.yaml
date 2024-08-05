@@ -1,4 +1,5 @@
 payload:
   - DOMAIN-KEYWORD,claude
+  - DOMAIN,claude.ai
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
