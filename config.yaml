@@ -84,12 +84,12 @@ rule-providers:
     type: http
     behavior: classical
     path: rules/direct.yaml
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/direct.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/direct.yaml
     interval: 86400
 
   reject:
     type: http
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/block.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/block.yaml
     behavior: classical
     path: rules/block.yaml
     interval: 86400
@@ -97,91 +97,91 @@ rule-providers:
   apple:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/apple.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/apple.yaml
     path: rules/apple.yaml
     interval: 86400
 
   google:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/google.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/google.yaml
     path: rules/google.yaml
     interval: 86400
 
   microsoft:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/microsoft.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/microsoft.yaml
     path: rules/microsoft.yaml
     interval: 86400
 
   openai:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/openai.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/openai.yaml
     path: rules/openai.yaml
     interval: 86400
 
   netflix:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/netflix.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/netflix.yaml
     path: rules/netflix.yaml
     interval: 86400
 
   twitter:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/twitter.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/twitter.yaml
     path: rules/twitter.yaml
     interval: 86400
 
   youtube:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/youtube.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/youtube.yaml
     path: rules/youtube.yaml
     interval: 86400
 
   github:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/github.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/github.yaml
     path: rules/github.yaml
     interval: 86400
 
   reddit:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/reddit.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/reddit.yaml
     path: rules/reddit.yaml
     interval: 86400
 
   discord:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/discord.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/discord.yaml
     path: rules/discord.yaml
     interval: 86400
 
   stackoverflow:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/stackoverflow.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/stackoverflow.yaml
     path: rules/stackoverflow.yaml
     interval: 86400
 
   facebook:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/facebook.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/facebook.yaml
     path: rules/facebook.yaml
     interval: 86400
 
   wikipedia:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/wikipedia.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/wikipedia.yaml
     path: rules/wikipedia.yaml
     interval: 86400
 
@@ -189,20 +189,20 @@ rule-providers:
     type: http
     behavior: classical
     path: rules/tiktok.yaml
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/tiktok.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/tiktok.yaml
     interval: 86400
 
   yahoo:
     type: http
     behavior: classical
     path: rules/yahoo.yaml
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/yahoo.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/yahoo.yaml
     interval: 86400
 
   telegram:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/telegram.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/telegram.yaml
     path: rules/telegram.yaml
     interval: 86400
 
@@ -210,20 +210,20 @@ rule-providers:
     type: http
     behavior: classical
     path: rules/porn.yaml
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/porn.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/porn.yaml
     interval: 86400
 
   clubhouse:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/clubhouse.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/clubhouse.yaml
     path: rules/clubhouse.yaml
     interval: 86400
 
   proxy:
     type: http
     behavior: classical
-    url: https://rawgit.lsong.org/song940/freefq/master/rules/proxy.yaml
+    url: https://ghp.ci/https://raw.githubusercontent.com/lsongdev/freefq/master/rules/proxy.yaml
     path: rules/proxy.yaml
     interval: 86400
 
