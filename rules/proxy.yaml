@@ -47,4 +47,6 @@ payload:
   - DOMAIN-SUFFIX,patreon.com
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,videolan.org
+  - DOMAIN-SUFFIX,gravatar.com
+  
   
