@@ -8,5 +8,6 @@ payload:
   - DOMAIN-SUFFIX,twimg.org
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitteroauth.com
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-SUFFIX,pscp.tv
