@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-SUFFIX,c.gle
   - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,gstatic.com
