@@ -49,5 +49,7 @@ payload:
   - DOMAIN-SUFFIX,videolan.org
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,tinkercad.com
+  - DOMAIN-SUFFIX,archive.org
+  
   
   
