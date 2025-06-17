@@ -50,6 +50,8 @@ payload:
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,tinkercad.com
   - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,epicgames.com
+  
   
   
   
